@@ -1,1 +1,79 @@
-/* your code here */
+
+.product {
+	background-color: #1cf76f;
+	display: flex;
+	height:100vh;
+	width: 100vw;
+	justify-content:center;
+	align-items:center;
+}
+
+.product__photo {
+	display: flex;
+	background-color: white;
+	height:100vh;
+	width:100vw;
+}
+
+.product-container {
+	display: flex;
+	background-color: green;
+	justify-content: center;
+}
+
+.photo-main {
+	background-color: #68f71c;
+	color: white;
+}
+
+.photo-album ul{
+	display: flex;
+	justify-content: right;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.controls {
+	display:flex;
+	justify-content: space-between;
+	text-color: white;
+}
+
+.product__info {
+	background-color: white;
+	height:100vh;
+	width: 100vw;
+}
+
+.variant ul {
+	display: flex;
+	justify-content: center;
+}
+.title {
+}
+
+.title span {
+	color: silver;
+	font-size:10px;
+}
+
+.price {
+	color: red;
+	font-size: 32px;
+}
+
+.benefits h3{
+	color: gray;
+}
+
+button {
+	background-color: red;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+}
